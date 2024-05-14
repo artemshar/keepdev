@@ -6,7 +6,6 @@ import solidJs from "@astrojs/solid-js"
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://artemshar.github.io",
-	base: "my-repo",
+  site: "https://artemshar.github.io/techcalm",
   integrations: [mdx(), sitemap(), solidJs(), tailwind({ applyBaseStyles: false })],
 })

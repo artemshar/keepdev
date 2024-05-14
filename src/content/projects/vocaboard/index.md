@@ -4,10 +4,7 @@ summary: "The goals of this project are to investigate the field of foreign lang
 date: "May 14 2024"
 draft: false
 tags:
-- Next.js
-- React
-- Nest.js
-- Redux
+- Personal
 demoUrl: https://vocaboard.com
 ---
 
