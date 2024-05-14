@@ -9,5 +9,8 @@ export default defineConfig({
   site: "https://artemshar.github.io",
 	output: 'static',
   outDir: './docs',
+	build: {
+    assets: 'astro'
+  },
   integrations: [mdx(), sitemap(), solidJs(), tailwind({ applyBaseStyles: false })],
 })
