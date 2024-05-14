@@ -10,17 +10,17 @@ Replace npm with your package manager of choice. `npm`, `pnpm`, `yarn`, `bun`, e
 
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
-| `bun install`             | Installs dependencies                            |
-| `bun dev`             | Starts local dev server at `localhost:4321`      |
-| `bun dev:network`     | Starts dev server on local network               |
-| `bun sync`            | Generates TypeScript types for all Astro modules.|
-| `bun build`           | Build your production site to `./dist/`          |
-| `bun preview`         | Preview your build locally, before deploying     |
-| `bun preview:network` | Starts preview server on local network           |
-| `bun astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `bun astro -- --help` | Get help using the Astro CLI                     |
-| `bun lint`            | Run ESLint                                       |
-| `bun lint:fix`        | Auto-fix ESLint issues                           |
+| `bun run install`             | Installs dependencies                            |
+| `bun run dev`             | Starts local dev server at `localhost:4321`      |
+| `bun run dev:network`     | Starts dev server on local network               |
+| `bun run sync`            | Generates TypeScript types for all Astro modules.|
+| `bun run build`           | Build your production site to `./dist/`          |
+| `bun run preview`         | Preview your build locally, before deploying     |
+| `bun run preview:network` | Starts preview server on local network           |
+| `bun run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `bun run astro -- --help` | Get help using the Astro CLI                     |
+| `bun run lint`            | Run ESLint                                       |
+| `bun run lint:fix`        | Auto-fix ESLint issues                           |
 
 
 ## 📋 Features
