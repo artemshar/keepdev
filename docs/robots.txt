@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://artemshar.github.io/sitemap-index.xml
