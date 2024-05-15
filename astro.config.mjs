@@ -8,7 +8,7 @@ import solidJs from "@astrojs/solid-js"
 export default defineConfig({
   site: "https://artemshar.github.io",
 	output: 'static',
-  outDir: './docs',
+  outDir: './dist',
 	build: {
     assets: 'astro'
   },
