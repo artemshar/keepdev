@@ -60,9 +60,9 @@ This website built by [Astro](https://astro.build/) framework.
 Theme was forked from [astro-sphere](https://github.com/markhorn-dev/astro-sphere), thanks [@markhorn-dev](https://github.com/markhorn-dev) ! It help me start working with Astro and update my previous Markdown based blog.
 
 
-## 🏛️ License
+## Deploy
 
-MIT
+Deployment is set up automatically using GitHub Actions by pushing to the main branch
 
 ## @TODO Project
 
@@ -73,3 +73,8 @@ MIT
 
 ## @TODO Posts
 - [ ] ADR (architecture decision records), example with this markdown blog
+
+
+## 🏛️ License
+
+MIT
