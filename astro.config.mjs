@@ -3,14 +3,17 @@ import mdx from "@astrojs/mdx"
 import sitemap from "@astrojs/sitemap"
 import tailwind from "@astrojs/tailwind"
 import solidJs from "@astrojs/solid-js"
+import { BASE_URL } from "./src/consts"
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://artemshar.github.io/techcalm",
+  site: "https://artemshar.github.io",
+	base: BASE_URL,
 	output: 'static',
   outDir: './dist',
-	build: {
-    assets: 'techcalm'
-  },
+	// build: {
+	// 	assets: 'techcalm',
+	// 	assetsPrefix: 'techcalm'
+  // },
   integrations: [mdx(), sitemap(), solidJs(), tailwind({ applyBaseStyles: false })],
 })
