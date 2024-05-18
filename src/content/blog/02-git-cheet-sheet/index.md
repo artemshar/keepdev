@@ -1,7 +1,7 @@
 ---
-title: "Git - cheet sheet"
+title: "Git, cheet sheet"
 summary: "How to do something in git, helpers"
-date: "May 14 2024"
+date: "May 18 2024"
 draft: false
 tags:
 - Cheat Sheet
@@ -53,8 +53,19 @@ git only garbage collects after about a month or so unless you explicitly tell i
 
 ## Rebase & Squash
 
-1. See git log, e.g. ```git log --graph --oneline``` or ```git log -5``` 
-2. ``` git rebase -i [commit id] ```
+1. See git log, for example:
+	```bash
+	git log --graph --oneline
+	``` 
+	or
+	```bash
+	git log -5
+	``` 
+2. Choose a needed commit
+	```bash
+	git rebase -i [commit id]
+	```
+
 3. Edit: 
 - first commit ```pick ...```
 - second commit ```s``` or ```squash```
@@ -63,28 +74,65 @@ git only garbage collects after about a month or so unless you explicitly tell i
 4. Rename final commit message and save
 5. ```git push --force``` if you already pushed commits
 
-## .gitconfig
-```git config --list``` or ```cat ~/.gitconfig```
+## GIT configuration
 
-## Check name & email 
+### Global Configuration
+This command lists the global configuration settings. These settings are specific to the user and are stored in the user's home directory (typically in a file located at ~/.gitconfig).
 ```bash
-// global
-git config --global user.name 
-git config --global user.email
+git config --list --global
+``` 
+or
+```bash
+cat ~/.gitconfig
+```
+Global settings apply to all repositories for the current user.
 
-// Local
-git config user.name
-git config user.email
+### Local Configuration
+This command lists the local configuration settings for the current repository. These settings are stored in the .git/config file within the repository's directory.
+
+```bash
+git config --list --local
+```
+or
+```bash
+git cat .git/config
+```
+Local settings override global settings for that particular repository.
+
+### Default Configuration
+
+This command lists the effective configuration settings by combining settings from all available levels: local, global, and system.
+
+```bash
+git config --list
 ```
 
-## Update name & email
+If a setting is specified in multiple levels, the local level takes precedence over the global level, which in turn takes precedence over the system level.
+
+
+## Check / Update user name / email
+
+### Global
 
 ```bash
-// global
+// Check
+git config --global user.name
+git config --global user.email 
+
+// Update
 git config --global user.name "yourusername"
 git config --global user.email "youremail@example.com"
 
-// Local
+```
+
+### Local
+
+```bash
+// Check 
+git config user.name
+git config user.email
+
+// Update
 git config user.name "yourusername"
 git config user.email "youremail@example.com"
 ```
@@ -97,7 +145,7 @@ git commit --amend --author="Author Name <email@address.com>"
 
 ## Aliases
 
-E.g. global, in ```~/.gitconfig``` file:
+For example, global, add aliases to ```~/.gitconfig``` file:
 
 ```bash
 [alias]
