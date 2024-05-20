@@ -48,31 +48,24 @@ const projects = (await getCollection("projects"))
   <script is:inline src=`${canonicalURL.href}/js/bg.js`></script>
   
   <!-- HERO -->
-  <section class="relative h-screen w-full">
-    <div id="planetcont" class='animate absolute inset-0 top-1/4 overflow-hidden'>
-      <div id="crescent" class='absolute top-0 left-1/2 -translate-x-1/2 w-[350vw] min-h-[50vh] aspect-square rounded-full p-[5px] bg-gradient-to-b from-black/5 dark:from-white/75 from-0% to-transparent to-5%'>
-        <div id="planet" class='w-full h-full bg-white dark:bg-black rounded-full p-[1px] overflow-hidden flex justify-center'>
-          <div id="blur" class='w-full h-20 rounded-full dark:bg-sky/25 blur-3xl' style="background-color: rgba(74, 173, 255, 0.63)"/>
-        </div>
-      </div>
-    </div>
-    <div class="animate absolute h-full w-full flex items-center justify-center">
+  <section class="relative pt-16 h-3/5 w-full">
+    <div class="animate py-12 w-full flex items-center justify-center">
       <div class='relative w-full h-full flex items-center justify-center'>
         <div class='p-5 text-center max-w-xl'>
-          <p class='animated mb-6 text-xl md:text-2xl'>
+          <div class='animated mb-4 text-xl md:text-2xl'>
 						Software Engineering blog
-          </p>
+          </div>
           <p class='animated mb-4 text-2xl md:text-3xl lg:text-4xl font-bold uppercase text-black dark:text-white'>
             {SITE.TITLE}
           </p>
 
-					<p class="mb-1 md:text-base">
-						[ Keep developing: calmly, at your own pace ]
-					</p>
+					<code class="mb-1 text-md md:text-xl" >
+						// Keep developing: calmly, at your own pace
+					</code>
 					<p  class="mb-5 md:text-base">
 						
 					</p>
-					<p class="mt-2 animated text-sm md:text-base">
+					<p class="mt-2 animated md:text-base">
 						Written by <a href="https://artemshar.space/" target="_blanc" class="underline text-sky-500 decoration-sky-500">Artem Shar</a>
 					</p>
           <div id="ctaButtons" class='animated flex flex-wrap gap-4 justify-center mt-5'>
@@ -91,7 +84,6 @@ const projects = (await getCollection("projects"))
   <div class="relative bg-white dark:bg-black">
     <div class="mx-auto max-w-screen-sm p-5 space-y-24 pb-16">
 
-			
       <!-- Blog Preview Section -->
       <section class="animate">
         <div class="space-y-4">
