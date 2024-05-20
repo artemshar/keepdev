@@ -11,9 +11,5 @@ export default defineConfig({
 	base: BASE_URL,
 	output: 'static',
   outDir: './dist',
-	// build: {
-	// 	assets: 'techcalm',
-	// 	assetsPrefix: 'techcalm'
-  // },
   integrations: [mdx(), sitemap(), solidJs(), tailwind({ applyBaseStyles: false })],
 })

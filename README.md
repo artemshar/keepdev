@@ -1,4 +1,4 @@
-# Tech Calm Station
+# Keep Dev
 
 This is a personal blog about software engineering, written by [@artemshar](https://github.com/artemshar) | [artemshar.space](https://artemshar.space/)
 

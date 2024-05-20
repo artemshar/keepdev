@@ -4,13 +4,13 @@ const base = import.meta.env.BASE_URL
 
 // Global
 export const SITE: Site = {
-  TITLE: "tech calm station",
+  TITLE: "Keep Dev",
   DESCRIPTION: "Software Development and Engineering",
   AUTHOR: "Artem Shar",
 }
 
 // BASE URL
-export const BASE_URL: string = "techcalm"
+export const BASE_URL: string = "keepdev"
 
 // Work Page
 export const WORK: Page = {
