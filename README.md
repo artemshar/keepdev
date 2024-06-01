@@ -1,8 +1,16 @@
 # Keep Dev
 
-This is a personal blog about software engineering, written by [@artemshar](https://github.com/artemshar) | [artemshar.space](https://artemshar.space/)
+[artemshar.github.io/keepdev](https://artemshar.github.io/keepdev/)
 
-## 💻 Commands
+This is a blog on software engineering topics, written by [@artemshar](https://github.com/artemshar)
+
+## @TODO Posts
+- [ ] Guide: how to create your own NPX tool (to solve some small problem or optimize work process)
+- [ ] Linux -  FAQ & useful commands
+
+
+ 
+## 💻 Commands in Astro project
 
 All commands are run from the root of the project, from a terminal:
 
@@ -23,42 +31,10 @@ Replace npm with your package manager of choice. `npm`, `pnpm`, `yarn`, `bun`, e
 | `bun run lint:fix`        | Auto-fix ESLint issues                           |
 
 
-## 📋 Features
-
-- ✅ 100/100 Lighthouse performance
-- ✅ Responsive
-- ✅ Accessible
-- ✅ SEO-friendly
-- ✅ Typesafe
-- ✅ Minimal style
-- ✅ Light/Dark Theme
-- ✅ Animated UI
-- ✅ Tailwind styling
-- ✅ Auto generated sitemap
-- ✅ Auto generated RSS Feed
-- ✅ Markdown support
-- ✅ MDX Support (components in your markdown)
-- ✅ Searchable content (posts and projects)
-
-## 💯 Lighthouse score
-![Lighthouse Score](_lighthouse.png)
-
-## 🕊️ Lightweight
-All pages under 100kb (including fonts)
-
-## ⚡︎ Fast
-Rendered in ~40ms on localhost
-
-## 📄 Configuration
-
-The blog posts on the demo serve as the documentation and configuration.
-
 ## ✨ Acknowledgement
 
 This website built by [Astro](https://astro.build/) framework.
-
 Theme was forked from [astro-sphere](https://github.com/markhorn-dev/astro-sphere), thanks [@markhorn-dev](https://github.com/markhorn-dev) ! It help me start working with Astro and update my previous Markdown based blog.
-
 
 ## Deploy
 
@@ -70,9 +46,6 @@ Deployment is set up automatically using GitHub Actions by pushing to the main b
 - [ ] Add projects
 - [ ] Remove unused components and content
 - [ ] Create a copy button for a block with code in md files
-
-## @TODO Posts
-- [ ] ADR (architecture decision records), example with this markdown blog
 
 
 ## 🏛️ License
