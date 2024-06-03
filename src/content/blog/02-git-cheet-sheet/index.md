@@ -8,19 +8,33 @@ tags:
 - Git
 ---
 
-## How to know current repository
+## Repository
+
+### How to know current repository
 
 ```bash
 git remote -v
 ```
 
-## How to set remote repository (github)
+### How to set remote repository (github)
 
 ```bash
 git remote add origin git@github.com:[username]/[repository-name].git
 ```
 
-## Delete a git branch both locally and remotely
+### How to update remote repository
+
+```bash
+git remote set-url <remote_name> <remote_url>
+
+// example
+git remote set-url origin git@github.com:user/repository.git
+```
+
+
+## Branches
+
+### Delete a git branch both locally and remotely
 
 ```bash
 // delete branch locally
@@ -30,7 +44,8 @@ git branch -d localBranchName
 git push origin --delete remoteBranchName
 ```
 
-## Reset last commit --soft HEAD~1
+## Commits 
+### Reset last commit --soft HEAD~1
 
 [https://www.git-tower.com/learn/git/faq/undo-last-commit/](https://www.git-tower.com/learn/git/faq/undo-last-commit/)
 
@@ -40,8 +55,13 @@ git reset --soft HEAD~1
 
 Note the --soft flag: this makes sure that the changes in undone revisions are preserved. After running the command, you'll find the changes as uncommitted local modifications in your working copy.
 
-## If you lost your changes
+### Update name & email in a last commit
 
+```bash
+git commit --amend --author="Author Name <email@address.com>"
+```
+
+### If you lost your changes
 
 Try to find your HEAD with:
 ```bash
@@ -51,7 +71,7 @@ git only garbage collects after about a month or so unless you explicitly tell i
 
 [https://stackoverflow.com/questions/5473/how-can-i-undo-git-reset-hard-head1](https://stackoverflow.com/questions/5473/how-can-i-undo-git-reset-hard-head1#:~:text=%2D%2Dhard%20discards%20uncommitted%20changes,to%20restore%20them%20through%20git.)
 
-## Rebase & Squash
+### Rebase & Squash
 
 1. See git log, for example:
 	```bash
@@ -110,9 +130,9 @@ git config --list
 If a setting is specified in multiple levels, the local level takes precedence over the global level, which in turn takes precedence over the system level.
 
 
-## Check / Update user name / email
+### Check / Update user name / email
 
-### Global
+#### Global
 
 ```bash
 // Check
@@ -125,7 +145,7 @@ git config --global user.email "youremail@example.com"
 
 ```
 
-### Local
+#### Local
 
 ```bash
 // Check 
@@ -137,11 +157,6 @@ git config user.name "yourusername"
 git config user.email "youremail@example.com"
 ```
 
-## Update name & email in a last commit
-
-```bash
-git commit --amend --author="Author Name <email@address.com>"
-```
 
 ## Aliases
 
