@@ -20,7 +20,9 @@ du -hs /mnt/d/foldername
 
 ### Check last update of a file
 
-```date -r README.md```
+```bash
+date -r README.md
+```
 
 
 
@@ -28,28 +30,34 @@ du -hs /mnt/d/foldername
 
 ## Restart a service
 
-```sudo systemctl restart [service_name]```
-e.g. ```sudo systemctl restart nginx```
+```bash
+sudo systemctl restart [service_name]
+```
 
-
+```bash
+sudo systemctl restart nginx
+```
 
 
 ## Access Control
 
 ### Create a new user (Linux)
 
-```sudo adduser [username]```
-
-
+```bash
+sudo adduser [username]
+```
 
 ## Times
 
 ### Configure server Timezone (Linux)
 
-```sudo dpkg-reconfigure tzdata```
+```bash
+sudo dpkg-reconfigure tzdata
+```
 
 ### See all commands of 'date'
 
-```man date```
-
+```bash
+man date
+```
 
