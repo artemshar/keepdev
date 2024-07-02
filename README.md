@@ -7,6 +7,9 @@ This is a blog on software engineering topics, written by [@artemshar](https://g
 ## @TODO Posts
 - [ ] Guide: how to create your own NPX tool (to solve some small problem or optimize work process)
 - [ ] Linux -  FAQ & useful commands
+- [ ] 04-ways-to-parse-url
+- [ ] 05-timer-react
+- [ ] 06-stopwatch-react
 
 
  
