@@ -25,6 +25,8 @@ By the way, please note that this is just terminology. That is, in this post I a
 ### STEM 
 STEM is a common abbreviation for four closely connected areas of study: **S** - science, **T** - technology, **E** - engineering and **M** - mathematics.
 
+<br/><br/>
+
 ### The RADIO Framework (abbreviation)
 
 The RADIO framework helps to answer front end system design questions.
