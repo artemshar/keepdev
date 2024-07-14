@@ -7,7 +7,7 @@ import { BASE_URL } from "./src/consts"
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://artemshar.github.io",
+  site: "https://artemshar.space",
 	base: BASE_URL,
 	output: 'static',
   outDir: './dist',
