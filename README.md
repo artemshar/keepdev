@@ -1,6 +1,6 @@
 # Keep Dev
 
-[artemshar.github.io/keepdev](https://artemshar.github.io/keepdev/)
+[artemshar.space/keepdev](https://artemshar.space/keepdev/)
 
 This is a blog on software engineering topics, written by [@artemshar](https://github.com/artemshar)
 
