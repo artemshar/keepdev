@@ -58,7 +58,7 @@ Note the --soft flag: this makes sure that the changes in undone revisions are p
 ### Update name & email in a last commit
 
 ```bash
-git commit --amend --author="Author Name <email@address.com>"
+git commit --amend --author="username <username@gmail.com>"
 ```
 
 ### If you lost your changes
@@ -175,4 +175,20 @@ For example, global, add aliases to ```~/.gitconfig``` file:
 ## Fix the warning: LF will be replaced by CRLF in <filename> | Windows | VSCode terminal
 ```bash
 git config --global core.autocrlf false
+```
+
+## How to add a new SSH keys
+
+- [Use SSH keys to communicate with GitLab](https://docs.gitlab.com/ee/user/ssh.html)
+- [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
+Don't forget regiser your new key ;)
+```bash
+ssh-add c:/Users/YOU/.ssh/id_ed25519
+```
+or
+
+```bash
+eval $(ssh-agent -s)
+ssh-add <directory to private SSH key>
 ```
