@@ -192,3 +192,8 @@ or
 eval $(ssh-agent -s)
 ssh-add <directory to private SSH key>
 ```
+
+
+## How to rename a branch
+
+```git branch -m old-name new-name```
