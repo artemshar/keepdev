@@ -197,3 +197,16 @@ ssh-add <directory to private SSH key>
 ## How to rename a branch
 
 ```git branch -m old-name new-name```
+
+## How to rollback to a commit
+
+> **! Make sure you have a backup branch with commits you want to remove**
+
+1. Check the history of the dev branch: You can see the commit history to identify the commit you want to rollback to.
+```bash
+git log
+```
+2. Use the git reset command to rollback to the desired commit. This command can work in different modes, but for removing the commits entirely, use the --hard option.
+```bash
+git reset --hard <commit-hash>
+```
