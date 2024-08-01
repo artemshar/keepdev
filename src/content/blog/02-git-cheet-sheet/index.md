@@ -210,3 +210,8 @@ git log
 ```bash
 git reset --hard <commit-hash>
 ```
+
+3. Force push to update the remote branch:
+```bash
+git push origin <branch-name> --force
+```
