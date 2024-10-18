@@ -11,6 +11,7 @@ This is a blog on software engineering topics, written by [@artemshar](https://g
 - [ ] 05-timer-react
 - [ ] 06-stopwatch-react
 
+.
 
  
 ## 💻 Commands in Astro project
