@@ -48,7 +48,7 @@ The RADIO framework is also helpful when working on new front end projects at wo
 
 <br/><br/>
 
-## Database
+## Databases
 
 ### ACID (Atomicity, Consistency, Isolation, Durability)
 
@@ -68,3 +68,7 @@ Example: let’s say that our account balance is $200. Two transactions for a $1
 
 Example: If a user makes a purchase and the money is debited from the account, this information must be securely stored so that if the system fails, the purchase data is not lost.
 
+## Engineering
+**Corner case** - In engineering, a corner case (or pathological case) involves a problem or situation that occurs only outside normal operating parameters—specifically one that manifests itself when multiple environmental variables or conditions are simultaneously at extreme levels, even though each parameter is within the specified range for that parameter.
+
+<a href="https://en.wikipedia.org/wiki/Corner_case" target="_blank">en.wikipedia.org/wiki/Corner_case</a>
